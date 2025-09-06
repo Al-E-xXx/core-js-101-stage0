@@ -82,8 +82,9 @@ function extractNameFromTemplate(value) {
  *   'John Doe'  => 'J'
  *   'cat'       => 'c'
  */
-function getFirstChar(/* value */) {
-  throw new Error('Not implemented');
+function getFirstChar(str) {
+  return str[0];
+  // throw new Error('Not implemented');
 }
 
 /**
